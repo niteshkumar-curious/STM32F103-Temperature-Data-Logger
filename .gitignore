@@ -1,0 +1,19 @@
+# Build output
+Debug/
+
+# STM32CubeIDE / Eclipse workspace files
+.project
+.cproject
+.settings/
+
+# VS Code workspace settings
+.vscode/
+
+# Compiled object files
+*.o
+*.d
+*.elf
+*.map
+*.list
+*.cyclo
+*.su
