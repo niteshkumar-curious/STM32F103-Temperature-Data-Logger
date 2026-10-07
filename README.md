@@ -21,11 +21,13 @@ records in external W25Q128 SPI Flash memory.
 - Temperature status indication using LEDs
 - Metadata-based Flash storage management
 
+
+## Project Structure
+
+```text
 STM32F103-Temperature-Data-Logger/
-│
 ├── Documentation/
 │   └── STM32_Temperature_Data_Logger_SRS.pdf
-│
 ├── Inc/
 │   ├── I2C_PDRIVER.h
 │   ├── SSD1306_DIS.h
@@ -36,7 +38,6 @@ STM32F103-Temperature-Data-Logger/
 │   ├── spi_driver.h
 │   ├── temp_sensor.h
 │   └── w25q128.h
-│
 ├── Src/
 │   ├── I2C_PDRIVER.c
 │   ├── SSD1306_DIS.c
@@ -50,10 +51,9 @@ STM32F103-Temperature-Data-Logger/
 │   ├── sysmem.c
 │   ├── temp_sensor.c
 │   └── w25q128.c
-│
 ├── Startup/
 │   └── startup_stm32f103c8tx.s
-│
 ├── STM32F103C8TX_FLASH.ld
 ├── .gitignore
 └── README.md
+```
